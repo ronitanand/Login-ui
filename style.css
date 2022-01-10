@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(146, 197, 214);
+    font-family: sans-serif;
+}
+
+.form-container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(224, 209, 195);
+    border-radius: 20px;
+    margin-top: 30px;
+    max-width: 500px;
+    padding-bottom: 20px;
+}
+
+
+.logo{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo img{
+    width: 150px;
+
+}
+
+.login-heading{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: darkcyan;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+}
+
+.login-heading span{
+    font-weight: 500;
+}
+
+.underline{
+    width: 200px;
+    height: 7px;
+    background-color: gray;
+    margin: 0 auto;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.login-form{
+    color: gray;
+    font-size: 18px;
+}
+
+.login-form div{
+margin-top:10px ;
+
+}
+
+.phone-number-holder{
+    margin: 0 auto;
+    width: 290px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 6px 6px;
+    border-radius: 4px;
+}
+
+.phone-number-holder input{
+    all: unset;
+    text-align: left;
+    border-left: 1px solid black;
+    padding-left:5px ;
+}
+
+.password-holder {
+    text-align: center;
+    
+}
+
+.password-holder input{
+    width: 290px;
+    border: 1px solid black;
+    padding: 6px 6px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.forgot-password{
+    width: 290px;
+    margin: 10px auto;
+    color: darkcyan;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: right;
+}
+
+p{
+    text-align: center;
+    color: rgb(97, 95, 95);
+
+}
+
+.terms{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.terms div:nth-child(1){
+    margin-right: 10px;
+}
+
+
+
+.terms div:nth-child(2){
+    margin-right: 10px;
+    color: rgb(97, 95, 95);
+}
+
+.terms a{
+    color:rgb(74, 150, 180);
+}
+
+.login-button{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-button input{
+    all: unset;
+    background-color: darkcyan;
+    color: white;
+    width: 290px;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.line{
+    background-color: black;
+    width: 100px;
+    height: 1px;
+}
+.or div:nth-child(2){
+    margin: 0 20px;
+}
+
+
+
+.login-otp{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.login-otp a{
+    display: inline-block;
+    width: 290px;
+    background-color: white;
+    padding: 7px 0;
+    border-radius:5px;
+    color: rgb(97, 95, 95);
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 700;
+    border:1px solid black;
+    
+}
+
+
+.continue-with{
+    text-align: center;
+    margin-top: 17px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.google-logo{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.create-account{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.create-account span a{
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: 700;
+}
